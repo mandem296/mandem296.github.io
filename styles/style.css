@@ -1,0 +1,52 @@
+/*
+p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+/*selecting multiple elements*/
+
+/*
+p,
+li,
+h1 {
+  color: red;
+}
+
+*/
+
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  background-color: #00539f;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0; /* top and bottom padding, left and right padding */
+  color: #00539f;
+  text-shadow: 2px 2px 1px black; /* first value is horizontal offset, second is vertical offset, third is blur radius */
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /* top, right, bottom, left */
+  border: 5px solid black;
+}
+
+img {
+  display: block; /* this gets rid of the extra space below the image */
+  margin: 0 auto; /* this centers the image */
+}
+
+
